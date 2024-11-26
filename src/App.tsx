@@ -33,7 +33,11 @@ function App() {
           <h2>Meet me tommorow.</h2>
         </div>
       ) : (
-        <div style={{}}>
+        <div
+          style={{
+            position: "relative",
+          }}
+        >
           <h2>Would you like to go on a date with me?</h2>
           <div
             style={{
@@ -57,7 +61,7 @@ function App() {
                 top: buttonPosition.y,
                 fontSize: "2rem",
               }}
-              onClick={handleNoClick}
+              onMouseOver={handleNoClick}
             >
               No
             </button>
