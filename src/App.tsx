@@ -61,7 +61,7 @@ function App() {
                 top: buttonPosition.y,
                 fontSize: "2rem",
               }}
-              onMouseOver={handleNoClick}
+              onClick={handleNoClick}
             >
               No
             </button>
